@@ -1,0 +1,18 @@
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  #fullform{
+    width: 60%;
+    margin-left: 18%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

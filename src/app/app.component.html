@@ -1,0 +1,12 @@
+<mat-toolbar class="home">
+  <span ><a href="#" style="color: cornsilk;">HOME</a></span>
+  <span class="example-spacer"></span>
+ <span class="span"><button (click)="isTrue=true">Register</button></span>
+ <span class="span"><button (click)="isTrue=false">Login</button></span>
+</mat-toolbar>
+<div *ngIf="isTrue">
+  <app-registration></app-registration>
+</div>
+<div *ngIf="!isTrue">
+  <app-login></app-login>
+</div>
